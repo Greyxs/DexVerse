@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>inicio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;600;700;800&family=Tektur:wght@400;600;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="cosmos-bg"></div>
+  <div class="stars"></div>
+  <div class="scanlines"></div>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="logo-block">
+        <svg class="logo-icon" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="14" cy="14" r="12" stroke="#00d4ff" stroke-width="1.5" opacity="0.6"/>
+          <circle cx="14" cy="14" r="6" fill="rgba(0,212,255,0.15)" stroke="#00d4ff" stroke-width="1"/>
+          <circle cx="14" cy="14" r="2.5" fill="#00d4ff"/>
+          <line x1="14" y1="2" x2="14" y2="8" stroke="#00d4ff" stroke-width="1" opacity="0.5"/>
+          <line x1="14" y1="20" x2="14" y2="26" stroke="#00d4ff" stroke-width="1" opacity="0.5"/>
+          <line x1="2" y1="14" x2="8" y2="14" stroke="#00d4ff" stroke-width="1" opacity="0.5"/>
+          <line x1="20" y1="14" x2="26" y2="14" stroke="#00d4ff" stroke-width="1" opacity="0.5"/>
+        </svg>
+        <span class="logo-text">DEXVERSE</span>
+        <span class="logo-version">v1.0</span>
+      </div>
+      <nav class="main-nav">
+        <a href="index.html" class="nav-link active">INICIO</a>
+        <a href="pokedex.html" class="nav-link">EXPLORAR</a>
+        <a href="tipos.html" class="nav-link">TIPOS</a>
+        <a href="generaciones.html" class="nav-link">GENERACIONES</a>
+        <a href="acerca.html" class="nav-link">ACERCA</a>
+        <a href="contacto.html" class="nav-link">CONTACTO</a>
+      </nav>
+      <div class="status-bar">
+        <span class="dot dot-cyan"></span>
+        <span class="status-text">EN LÍNEA</span>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-content">
+      <div class="hero-tag">PORTAL DE EXPLORACIÓN</div>
+      <h1 class="hero-title">
+        <span class="title-line1">DEXVERSE</span>
+        <span class="title-line2">EXPLORER</span>
+      </h1>
+      <p class="hero-desc">
+        Tu base de datos completa de más de 1000 criaturas extraordinarias.
+        Explora estadísticas, tipos, generaciones y descubre el universo que
+        siempre quisiste conocer a fondo.
+      </p>
+      <div class="hero-actions">
+        <a href="pokedex.html" class="btn btn-primary">EXPLORAR CRIATURAS</a>
+        <a href="tipos.html" class="btn btn-outline">VER TIPOS</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-num" id="stat-total">—</span>
+          <span class="stat-label">CRIATURAS</span>
+        </div>
+        <div class="stat-sep">/</div>
+        <div class="stat-item">
+          <span class="stat-num">18</span>
+          <span class="stat-label">TIPOS</span>
+        </div>
+        <div class="stat-sep">/</div>
+        <div class="stat-item">
+          <span class="stat-num">9</span>
+          <span class="stat-label">GENERACIONES</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="orb-core"></div>
+      <div class="orbit-ring orbit-ring-1"></div>
+      <div class="orbit-ring orbit-ring-2"></div>
+      <div class="orbit-ring orbit-ring-3"></div>
+      <div class="orbit-dot orbit-dot-1"></div>
+      <div class="orbit-dot orbit-dot-2"></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-header">
+      <span class="section-tag">// FUNCIONALIDADES</span>
+      <h2 class="section-title">TODO LO QUE NECESITAS</h2>
+    </div>
+    <div class="features-grid">
+      <div class="feature-card">
+        <span class="feature-icon">🔭</span>
+        <div class="feature-title">BASE DE DATOS COMPLETA</div>
+        <p class="feature-desc">Accede a información detallada de más de 1000 criaturas: estadísticas base, habilidades, tipos, peso y altura.</p>
+      </div>
+      <div class="feature-card">
+        <span class="feature-icon">⚡</span>
+        <div class="feature-title">BÚSQUEDA EN TIEMPO REAL</div>
+        <p class="feature-desc">Filtra por nombre, número o tipo al instante. Resultados inmediatos sin recargar la página.</p>
+      </div>
+      <div class="feature-card">
+        <span class="feature-icon">🧬</span>
+        <div class="feature-title">ANÁLISIS DE TIPOS</div>
+        <p class="feature-desc">Consulta las relaciones de daño entre los 18 tipos y descubre debilidades y resistencias de cada uno.</p>
+      </div>
+      <div class="feature-card">
+        <span class="feature-icon">🗺️</span>
+        <div class="feature-title">TODAS LAS GENERACIONES</div>
+        <p class="feature-desc">Explora desde la Primera hasta la Novena generación, organizadas por región, año y criaturas iniciales.</p>
+      </div>
+      <div class="feature-card">
+        <span class="feature-icon">📊</span>
+        <div class="feature-title">ESTADÍSTICAS DETALLADAS</div>
+        <p class="feature-desc">Visualiza las stats base de cada criatura con barras comparativas y desglose completo de atributos.</p>
+      </div>
+      <div class="feature-card">
+        <span class="feature-icon">🌐</span>
+        <div class="feature-title">DATOS EN VIVO</div>
+        <p class="feature-desc">Información actualizada y precisa. El portal consulta la fuente en tiempo real para garantizar exactitud.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-header">
+      <span class="section-tag">// DESTACADOS</span>
+      <h2 class="section-title">CRIATURAS DEL DÍA</h2>
+      <button class="btn-reload" onclick="cargarDestacados()">[ RECARGAR ]</button>
+    </div>
+    <div class="pokemon-grid" id="grid-destacados">
+      <div class="skeleton-card"></div>
+      <div class="skeleton-card"></div>
+      <div class="skeleton-card"></div>
+      <div class="skeleton-card"></div>
+      <div class="skeleton-card"></div>
+      <div class="skeleton-card"></div>
+    </div>
+  </section>
+
+  <div class="modal-overlay" id="modal-overlay" onclick="if(event.target===this)cerrarModal()">
+    <div class="modal-card">
+      <button class="modal-close" onclick="cerrarModal()">[ ESC ]</button>
+      <div id="modal-content"></div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-left">
+        <span class="footer-logo">DEXVERSE</span>
+        <span class="footer-tagline">Portal de exploración de criaturas — Datos actualizados en tiempo real</span>
+      </div>
+      <div class="footer-links">
+        <a href="index.html" class="footer-link">INICIO</a>
+        <a href="pokedex.html" class="footer-link">EXPLORAR</a>
+        <a href="acerca.html" class="footer-link">ACERCA</a>
+        <a href="contacto.html" class="footer-link">CONTACTO</a>
+        <span class="footer-copy">No afiliado con Nintendo o Game Freak.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/api.js"></script>
+  <script>
+    fetch('https://pokeapi.co/api/v2/pokemon?limit=1')
+      .then(r => r.json())
+      .then(d => {
+        document.getElementById('stat-total').textContent = d.count.toLocaleString();
+      });
+    cargarDestacados();
+  </script>
+</body>
+</html>
